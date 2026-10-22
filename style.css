@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 460px;
+    width: 100%;
+    padding: 32px 36px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2b6cb0;
+    margin-bottom: 12px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #bee3f8;
+    margin-bottom: 24px;
+}
+
+label {
+    font-weight: 500;
+    color: #4a5568;
+    font-size: 0.95rem;
+}
+
+form p {
+    margin-bottom: 16px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    color: #2d3748;
+    background-color: #f7fafc;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input[type="number"]:focus {
+    border-color: #3182ce;
+    box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.2);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #3182ce;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 9px 22px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    margin-right: 8px;
+}
+
+input[type="submit"] {
+    background-color: #3182ce;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: #2b6cb0;
+}
+
+input[type="submit"]:active {
+    transform: scale(0.97);
+}
+
+input[type="reset"] {
+    background-color: #a0aec0;
+    color: #fff;
+}
+
+input[type="reset"]:hover {
+    background-color: #718096;
+}
+
+input[type="reset"]:active {
+    transform: scale(0.97);
+}

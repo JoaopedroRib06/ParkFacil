@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Park Fácil</title>
+</head>
+<body>
+    <div class="container">
+        <h1 allign="center">
+            Estacionamento Park Fácil
+        </h1>
+        <hr>
+        <form action="" method="post">
+            <p>
+                <label for="h">
+                    horas
+                </label>
+                <input type="number" name="horas" id="horas" required>
+            </p> 
+            <p>
+                <label for="v">Veículos</label>
+                <br>
+                <input type="radio" name="veiculos" id="veiculos" required value="0">Carro
+                <br>
+                <input type="radio" name="veiculos" id="veiculos" required value="1">Moto
+                <p>
+                    <input type="checkbox" name="lavagem" id="lavagem">lavagem
+                </p>
+                <p>
+                    <input type="submit" value="Calcular">
+                    <input type="reset" value="Limpar">
+                </p>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
